@@ -2,14 +2,10 @@
 markdown:         kramdown
 pygments:         true
 
-# Permalinks
-permalink:        pretty
 
 # Setup
 title:            Y & L
 tagline:          'Record our story'
-description:      '我爱你，想打张白条给你，上面写着：欠你一生温柔、半世呵护，分期一万年。'
-url:              http://yangliu.love
 
 author:
   name:           'Null'
@@ -17,8 +13,12 @@ author:
 
 paginate:         5
 
-# Custom vars
-version:          2.0.0
+# General Jekyll Config
+highlighter: rogue
+name: Y & L
+description: '我爱你，想打张白条给你，上面写着：欠你一生温柔、半世呵护，分期一万年。'
+url: "http://yangliu.love/about/"
+lsi: false
 
-github:
-  repo:           http://yangliu.love/about/
+# Permalinks
+permalink:        pretty
